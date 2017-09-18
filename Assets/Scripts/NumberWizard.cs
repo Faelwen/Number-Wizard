@@ -24,10 +24,11 @@ public class NumberWizard : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.UpArrow)) {
-			print ("Up arrow pressed");
-		}
-		if (Input.GetKeyDown (KeyCode.DownArrow)) {
-			print ("Down arrow pressed");
+			print ("Up arrow pressed.");
+		} else if (Input.GetKeyDown (KeyCode.DownArrow)) {
+			print ("Down arrow pressed.");
+		} else if (Input.GetKeyDown (KeyCode.Return)) {
+			print ("I won!");
 		}
 	}
 }
